@@ -28,11 +28,11 @@ const UPoLPrefix = [
       
      const upol = event.body.substring(ahprefix.length).trim();
    if (!upol) {
-        await message.reply('𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻𝗮𝗹 ✨\n━━━━━━━━━━━━━\nAsk Me Your Question');
+        await message.reply('Empereur Ciel ✨\n━━━━━━━━━━━━━\nAsk Me Your Question');
         return;
       }
       
-      const apply = ['Awww🥹, maybe you need my help', 'How can i help you?', 'How can i assist you today?', 'How can i help you?🙂'];
+      const apply = ['Creature inférieur que veux tu' , maybe you need my help', 'How can i help you?', 'How can i assist you today?', 'How can i help you?🙂'];
       
      const randomapply = apply[Math.floor(Math.random() * apply.length)];
 
