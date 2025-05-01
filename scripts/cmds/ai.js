@@ -50,7 +50,7 @@ const UPoLPrefix = [
  
      const UPoL = response.data.answer; 
 
-      const upolres = `𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻𝗮𝗹 ✨\n━━━━━━━━━━━━━\n${UPoL}`;
+      const upolres = `Empereur Ciel ✨\n━━━━━━━━━━━━━\n${UPoL}`;
       
         message.reply(upolres);
   }
