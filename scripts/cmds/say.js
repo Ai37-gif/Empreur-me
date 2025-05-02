@@ -33,7 +33,7 @@ module.exports = {
 					
 			} catch (e) {
         console.log(e)
-        message.reply(`🌊Mitantsoa Thinat🌊 `) }
+        message.reply(`𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐀𝐊𝐀𝐒𝐇𝐈 `) }
 
 	}
 };
