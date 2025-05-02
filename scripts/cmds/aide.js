@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "━━━━━━━━━━━━━━━━\n『 🕸 𝖁𝖔𝖑𝖉𝖎𝖌𝖔 𝐋𝐈𝐒𝐓 🕸』"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "━━━━━━━━━━━━━━━━\n『 🌿 𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐋𝐈𝐒𝐓 🌿』"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `『 🕸 𝖁𝖔𝖑𝖉𝖎𝖌𝖔 𝖆𝖓𝖔𝖘  🕸』\n`; // replace with your name 
+      msg += `『 🌿 𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐀𝐊𝐀𝐒𝐇𝐈  🌿』\n`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -66,10 +66,6 @@ module.exports = {
 
       const helpListImages = [
         "https://i.ibb.co/nBL42Bx/image.jpg", // add image link here
-        "https://i.ibb.co/qN5PkHc/image.jpg",
-        "https://i.ibb.co/bmMRbmh/image.jpg",
-        "https://i.ibb.co/jgVFp4Y/image.jpg",
-        "https://i.ibb.co/kJ6WWmW/image.jpg",
         // Add more image links as needed
       ];
 
