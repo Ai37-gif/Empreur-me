@@ -61,7 +61,7 @@ module.exports = {
 		let msg = "";
 		const { mentions } = event;
 		for (const id in mentions)
-			msg += `${mentions[id].replace("@", "")}: ${id}\n`;
+			msg += `${mentions[id].replace("£", "")}: ${id}\n`;
 		message.reply(msg || getLang("syntaxError"));
 	}
 };
