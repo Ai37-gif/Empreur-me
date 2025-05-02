@@ -14,17 +14,17 @@ module.exports = {
 		guide: {
 			vi: "   {pn} <new prefix>: thay đổi prefix mới trong box chat của bạn"
 				+ "\n   Ví dụ:"
-				+ "\n    {pn} #"
+				+ "\n    {pn} £"
 				+ "\n\n   {pn} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (chỉ admin bot)"
 				+ "\n   Ví dụ:"
-				+ "\n    {pn} # -g"
+				+ "\n    {pn} £ -g"
 				+ "\n\n   {pn} reset: thay đổi prefix trong box chat của bạn về mặc định",
 			en: "   {pn} <new prefix>: change new prefix in your box chat"
 				+ "\n   Example:"
-				+ "\n    {pn} #"
+				+ "\n    {pn} £"
 				+ "\n\n   {pn} <new prefix> -g: change new prefix in system bot (only admin bot)"
 				+ "\n   Example:"
-				+ "\n    {pn} # -g"
+				+ "\n    {pn} £ -g"
 				+ "\n\n   {pn} reset: change prefix in your box chat to default"
 		}
 	},
@@ -46,7 +46,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "\n𝐕͢𝐎͢𝐋͢𝐃͢𝐈͢𝐆͢𝐎͢ 𝗕𝗢𝗧\n\n ➫𝗣𝗙 : [ %2 ]\n\n🍀 [𝗚𝗢𝗔𝗧𝗧𝗕𝗢𝗧-𝗩𝟮]\n☁️ 𝘼𝘿𝙈𝙄𝙉-𝙇𝙄𝙉𝙆: \n➤https://https://www.facebook.com/ange.shidi.98\n✦contact 𝗔𝗗𝗠𝗜𝗡✦"
+			myPrefix: "\n£ 𝗕𝗢𝗧\n\n ➫𝗣𝗙 : [ %2 ]\n\n🍀 [𝗚𝗢𝗔𝗧𝗧𝗕𝗢𝗧-𝗩𝟮]\n☁️ 𝘼𝘿𝙈𝙄𝙉-𝙇𝙄𝙉𝙆: \n➤https://https://www.facebook.com/ange.shidi.98\n✦contact 𝗔𝗗𝗠𝗜𝗡✦"
 		}
 	},
 
@@ -99,7 +99,7 @@ module.exports = {
 	  const data = await usersData.get(event.senderID);
     const name = data.name;
 	  const xyrene = {
-	    body: `🈷️${name}🈷️` + getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
+	    body: `🌿${name}🌿` + getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
 	    attachment: await global.utils.getStreamFromURL("https://i.imgur.com/dV0G0Sw.jpeg")
 				};
 		if (event.body && event.body.toLowerCase() === "prefix")
