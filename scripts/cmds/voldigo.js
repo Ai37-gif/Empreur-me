@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "voldigo",
+    name: "Voldigo",
     version: 2.0,
     author: "OtinXSandip",
     description: "ai",
@@ -37,9 +37,9 @@ module.exports = {
       
       api.setMessageReaction("🔴", event.messageID, () => { }, true);
       message.reply({
-        body: `ROI DEMON ✧════•❁❀❁•════✧
+        body: `𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐃𝐔 𝐂𝐈𝐄𝐋 ✧════•❁❀❁•════✧
 ${name} ${result}
-✧════•❁❀❁•════✧ VOLDIGO ANOS 🔴`,
+✧════•❁❀❁•════✧ 𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐀𝐊𝐀𝐒𝐇𝐈 🔴`,
         mentions: ment,
       }, (err, info) => {
         global.GoatBot.onReply.set(info.messageID, {
@@ -67,10 +67,10 @@ ${name} ${result}
      
       api.setMessageReaction("🔴", event.messageID, () => { }, true);
       message.reply({
-        body: `VOLDIGO ANOS 🍀 ✧════•❁❀❁•════✧
+        body: `𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐀𝐊𝐀𝐒𝐇𝐈 🍀 ✧════•❁❀❁•════✧
 ${name}  
 ${result}
-✧════•❁❀❁•════✧ VOLDIGO ANOS 🔴`,
+✧════•❁❀❁•════✧ 𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐀𝐊𝐀𝐒𝐇𝐈 🔴`,
         mentions: ment,
       }, (err, info) => {
         global.GoatBot.onReply.set(info.messageID, {
