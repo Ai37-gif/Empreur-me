@@ -34,13 +34,13 @@ module.exports = {
 			listAdmin: "👑 | Danh sách admin:\n%1"
 		},
 		en: {
-			added: "✅ | Mon nouveau maitre\n%2",
-			alreadyAdmin: "\n⚠️ | %1 L'utilisateur est déjà un dieu:\n%2",
+			added: "✅ | 𝐌𝐘 𝐍𝐄𝐖 𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐆𝐎𝐃👑\n%2",
+			alreadyAdmin: "\n⚠️ | %1 𝐋'𝐔𝐓𝐈𝐋𝐈𝐒𝐀𝐓𝐄𝐔𝐑 𝐄𝐒𝐓 𝐃𝐄𝐉𝐀 𝐔𝐍 𝐃𝐈𝐄𝐔:\n%2",
 			missingIdAdd: "⚠️ | Please enter ID or tag user to add admin role",
-			removed: "✅ | %1 tu n'es plus digne d'être mon maître:\n%2",
+			removed: "✅ | %1 𝐓𝐔 𝐍𝐄 𝐌𝐄𝐑𝐈𝐓𝐄 𝐏𝐀𝐒 𝐃'𝐄𝐓𝐑𝐄 𝐌𝐎𝐍 𝐌𝐀𝐈𝐓𝐑𝐄:\n%2",
 			notAdmin: "⚠️ | %1 users don't have admin role:\n%2",
 			missingIdRemove: "⚠️ | Please enter ID or tag user to remove admin role",
-			listAdmin: "👑 | LES DIEU SUPRÊME\n%1"
+			listAdmin: "👑 | 𝐋𝐈𝐒𝐓𝐄 𝐆𝐎𝐃 𝐒𝐔𝐏𝐑𝐄𝐌𝐄👑\n%1"
 		}
 	},
 
