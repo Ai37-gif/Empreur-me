@@ -27,7 +27,7 @@ module.exports = {
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '🌿 Ciel Bleu 🌿',
+          name: '🌿 𝐂𝐈𝐄𝐋 𝐁𝐋𝐄𝐔 🌿',
           gender: '𝗕𝗢𝗬',
           hobby: 'Football🤘🏼',
           relationship: '𝙐𝙉𝘿𝙀𝙁𝙄𝙉𝙀𝘿',
@@ -72,7 +72,7 @@ module.exports = {
 ❍⌇─➭ 
  𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞🔗: ${ownerInfo.facebookLink}
 ❍⌇─➭ 
-      ◈ 𝗦𝗧𝗔𝗧𝗨𝗦 ◈: $👑EMPEREUR DU CIEL☣️ 
+      ◈ 𝗦𝗧𝗔𝗧𝗨𝗦 ◈: $👑𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐃𝐔 𝐂𝐈𝐄𝐋☣️ 
 
 𝐔𝐍 𝐏𝐀𝐒𝐒𝐈𝐎𝐍𝐍É 𝐃𝐄 𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐈𝐄𝐒, 𝐏𝐋𝐔𝐒 𝐒𝐎𝐌𝐁𝐑𝐄 𝐐𝐔𝐄 𝐋'𝐎𝐌𝐁𝐑𝐄
         `;
