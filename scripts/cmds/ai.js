@@ -1,6 +1,6 @@
  const axios = require('axios');
 const UPoLPrefix = [
-  'edu',
+  'empereur',
   'ai',
   'akashi',
   'bot',
@@ -50,7 +50,7 @@ const UPoLPrefix = [
  
      const UPoL = response.data.answer; 
 
-      const upolres = `Empereur Ciel ✨\n━━━━━━━━━━━━━\n${UPoL}`;
+      const upolres = `𝐄𝐌𝐏𝐄𝐑𝐄𝐔𝐑 𝐀𝐊𝐀𝐒𝐇𝐈 💀\n━━━━━━━━━━━━━\n${UPoL}`;
       
         message.reply(upolres);
   }
